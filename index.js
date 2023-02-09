@@ -57,7 +57,7 @@ const SendMailMarketingHunghacompanyTimviec365 = async (req,res)=>{
     }
 }
 
-app.post('/api/mail/HunghacompanyTimviec365', SendMailMarketingHunghacompanyTimviec365);
+app.post('/api/mail/nhatuyendungtimviec', SendMailMarketingHunghacompanyTimviec365);
 
 app.listen(8800,()=>{
     console.log("Backend is running on http://localhost:8800")
